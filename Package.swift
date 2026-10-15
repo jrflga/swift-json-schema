@@ -39,7 +39,7 @@ let package = Package(
     // Fork do jrflga: só Apple e swiftlang, numa versão exata. As
     // dependências de documentação e de teste de foto saíram (FORK.md).
     .package(url: "https://github.com/swiftlang/swift-syntax.git", exact: "604.0.0"),
-    .package(url: "https://github.com/apple/swift-collections.git", exact: "1.7.3"),
+    .package(url: "https://github.com/apple/swift-collections.git", exact: "1.2.1"),
   ],
   targets: [
     // Ordered, RFC-8259-conformant JSON value type, parser, and serializer.
